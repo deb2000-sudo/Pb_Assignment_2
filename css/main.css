@@ -26,6 +26,8 @@
     margin-bottom: 30px;
 }
 .heading-container-3{
+    display: flex;
+    justify-content: flex-end;
     background-color:#ffffff;
     border-style: dotted;
     border-color: #ffffff;
@@ -49,12 +51,14 @@ p.light-heading{
 }
 .fa{
     font-size: 300%;
-    color: red;
-    margin-left: 350px;
-    margin-top: 12px;
+    color:#e74c3c;
+}
+.btn-1{
+    margin-top: 20px;
 }
 .button-text{
-    font-size: 200%;
+    font-size: 240%;
+    margin-top: 19px;
     text-align: end;
     font-family: 'Roboto', sans-serif;
     color: grey;
@@ -92,14 +96,14 @@ p.light-heading{
 }
 p.card-heading{
     text-align: center;
-    color: #ef877c;
+    color: #e74c3c;
     font-size: 25px;
-    font-weight: 100;
+    font-weight: 200;
 }
 .card-body-completed{
     text-align: center;
     font-size: 24px;
-    color: red;
+    color:#e74c3c;
     text-decoration: line-through;
 }
 .card-body-incompleted{
@@ -156,8 +160,8 @@ p.to-do-text-heading-style{
 }
 .to-do-back-button{
     background-color: #ffffff;
-    margin-top: 60px;
-    margin-left: 140px;
+    margin-top: 80px;
+    margin-left: 42%;
     margin-right: auto;
     
 }
@@ -169,15 +173,16 @@ p.to-do-text-heading-style{
 }
 .to-do-card-items{
     background-color: #ffffff;
-    border-radius: 6px;
+    border-radius: 10px;
     border-style: solid;
     border-color: #f0938a;
     border-width: 2px;
     height: 380px;
-    width: 40%;
+    width: 38%;
     box-shadow: 6px 6px 10px 6px lightgrey;
     align-items: center;
-    margin-left: 350px;
+    margin-top: 36px;
+    margin-left: 31%;
 }
 p.to-do-card-heading{
     text-align: center;
@@ -187,31 +192,32 @@ p.to-do-card-heading{
     font-family: 'Roboto', sans-serif;
 }
 .to-do-hr-line{
-    margin-left: 20%;
+    margin-left: 19%;
     background-color:gray;
     height: 1px;
+    margin-top: -15px;
 }
 .to-do-card-body{
     margin-top: 20px;
 }
 .to-do-card-body-completed{
     text-align: center;
-    font-size: 22px;
-    color: red;
+    font-size: 25px;
+    color:#e74c3c;
     text-decoration: line-through;
     font-family: 'Roboto', sans-serif;
 }
 .to-do-card-body-incompleted{
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 250;
     color:#1a1818;
     font-family: 'Roboto', sans-serif;
-    margin-left: 10%;
+    margin-left: 12%;
 }
 .to-do-button{
     position: absolute;
-    margin-top: 60px;
-    margin-left: 55px;
+    margin-top: 91px;
+    margin-left: 25%;
 }
 .to-do-fa{
     font-size: 100%;
@@ -365,7 +371,7 @@ p.to-do-card-heading{
         font-weight: 100;
     }
     .to-do-card-items{
-        background-color: #a02c2c;
+        background-color: #ffffff;
         border-radius: 6px;
         border-style: solid;
         border-color: #f0938a;
